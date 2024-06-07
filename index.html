@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ROCK|PAPER|SCISOORS</title>
+</head>
+<body>
+
+<div class="container-title">
+    <h1 class="title">ROCK|PAPER|SCISOORS</h1>
+    <hr class="hr1">
+    <button class="Reload-text" id="Reload-game">Reload</button>
+</div>
+
+<section>
+
+    
+    <div class="containerOne"> 
+        
+        <h2 class="Result-text" id="Result-text">Game Result</h2>
+
+        <div class="containerTwo">
+            
+            <div class="UserOne">
+                <h3 class="nameUser"> User</h3>
+                <p class="counter" id="score-user" >0</p>
+
+                <div class="UserImg">
+                    <img src="img/rock.png" id="rock" alt="">
+                    <img src="img/papers.png" id="papers" alt="">
+                    <img src="img/scissors.png" id="scissors" alt="">
+                </div>
+
+                <h3>hare is your chouce</h3>
+                <img id="User-Img" src="img/rock.png" alt="" >
+
+            </div>
+            
+            <div class="machineTwo">
+                <h3 class="nameUser"> Machine</h3>
+                <p class="counter" id="machine-score">0</p>
+
+                <div class="machineImg">
+                    <img src="img/rock.png" alt="">
+                    <img src="img/papers.png" alt="">
+                    <img src="img/scissors.png" alt="">
+                </div>
+
+                <h3>the cpu chooses</h3>
+                <img id="machine-Img" src="img/rock.png" alt="" >
+
+            </div>
+
+        </div>
+            
+    </div>
+    
+</section>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
